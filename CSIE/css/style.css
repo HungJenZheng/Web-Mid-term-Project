@@ -1,7 +1,18 @@
 /* --------------------------------------
    Navbar
    -------------------------------------- */
+   /*.nav li a:hover{
+     transform: translate3d(0,-100%,0);
+     font-weight: bold;
+   }
 
+   .nav li a{
+     transition: transform 0.4s;
+   }
+
+   .nav li {
+     overflow: hidden;
+   }*/
 
 /* --------------------------------------
    Carousel
