@@ -93,6 +93,29 @@
       text-decoration: none;
     }
 
+    .news .header {
+      background-color: #A62F0F;
+
+      border-radius: 5px;
+      margin-top: 20px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 7px;
+      font-size: 18px;
+      color: white;
+    }
+
+    .news ul {
+      padding-left: 0;
+    }
+
+    .news ul li {
+      border-left: 4px solid red;
+      border-radius: 3px;
+      list-style: none;
+      margin-top: 5px;
+      font-size: 16px;
+    }
     /* --------------------------------------
        Footer
        -------------------------------------- */
@@ -113,8 +136,4 @@
       footer .header p {
         display: block;
         font-size: 12px;
-      }
-
-      .contact-info, .relative-site, .other {
-        border-bottom: 1px solid black;
       }
