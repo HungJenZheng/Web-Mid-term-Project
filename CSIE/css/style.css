@@ -1,18 +1,26 @@
+body {
+  overflow-x: hidden;
+}
 /* --------------------------------------
    Navbar
    -------------------------------------- */
    /*.nav li a:hover{
      transform: translate3d(0,-100%,0);
+   .nav li a:hover{
+     transform:rotateX(360deg);
      font-weight: bold;
    }
 
    .nav li a{
      transition: transform 0.4s;
+     transition: transform 1s;
+     transition-delay: 0.07s;
    }
 
    .nav li {
      overflow: hidden;
    }*/
+   }
 
 /* --------------------------------------
    Carousel
@@ -106,38 +114,51 @@
 
     .news .header {
       background-color: #A62F0F;
+      /*background-color: #033EDB;*/
+      background-color: #3240A0;
       border-radius: 5px;
       margin-top: 20px;
       padding-top: 5px;
       padding-bottom: 5px;
       padding-left: 7px;
+      padding-left: 10px;
       font-size: 18px;
       color: white;
     }
 
     .news ul {
       padding-left: 0;
+      padding-left: 3px;
     }
 
     .news ul li {
       border-left: 4px solid red;
+      border-left: 4px solid #3240A0;
       border-radius: 3px;
       list-style: none;
       margin-top: 5px;
+      margin-top: 10px;
+      margin-bottom: 10px;
       font-size: 1.2em;
       display: block;
       height: 30px;
+      /*height: 30px;*/
     }
 
     .news ul li:hover {
       font-size: 1.3em;
+      /*font-size: 1.3em;*/
+      transform: scale(1.2,1.1);
+      transform-origin: 0 0;
     }
     /* --------------------------------------
        Footer
        -------------------------------------- */
       footer {
         border-top: 1px solid black;
+        border-top: 2px solid #182A5C;
         margin-top: 20px;
+        background-color: #53D4E1;
       }
 
       footer .header {
