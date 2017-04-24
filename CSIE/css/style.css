@@ -26,6 +26,7 @@ body {
 
    .professor-card{
      box-sizing: border-box;
+     background-color: rgb(155, 233, 238);
      margin: 0 10px;
      border: 3px #f7f7f7 solid;
    }
@@ -33,9 +34,20 @@ body {
    .professor-name{
      text-align: center;
      font-size: 18px;
+     margin: 8px 0;
    }
 
+   .professor-name img{
+     width: 120px;
+   }
 
+   .professor-introduce h4{
+     padding: 0 15%;
+   }
+
+   .professor-introduce p{
+     padding: 0 20%;
+   }
 
 /* --------------------------------------
    Carousel
