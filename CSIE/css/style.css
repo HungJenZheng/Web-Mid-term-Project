@@ -20,7 +20,22 @@ body {
    .nav li {
      overflow: hidden;
    }*/
+   .logo{
+     height: 22px;
    }
+
+   .professor-card{
+     box-sizing: border-box;
+     margin: 0 10px;
+     border: 3px #f7f7f7 solid;
+   }
+
+   .professor-name{
+     text-align: center;
+     font-size: 18px;
+   }
+
+
 
 /* --------------------------------------
    Carousel
