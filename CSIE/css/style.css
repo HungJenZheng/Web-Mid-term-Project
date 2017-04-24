@@ -4,13 +4,7 @@ body {
 
 * {
   font-family: 'Bitter',  'Microsoft JhengHei', serif;
-<<<<<<< HEAD
 }
-=======
-
-}
-
->>>>>>> bb438d4f4e3c8ca1114d4aec0758c48e2cfd63b9
 /* --------------------------------------
    Navbar
    -------------------------------------- */
@@ -24,6 +18,10 @@ body {
      transition-delay: 0.07s;
    }
 
+   .teach-title {
+     color: #42aec4;
+   }
+
    .logo{
      height: 22px;
    }
@@ -34,6 +32,8 @@ body {
      background-color: rgba(118, 216, 238, 0.65);
      margin: 1% 2%;
      border: 3px rgba(118, 216, 238, 0.65) solid;
+     height: 464.667px;
+     /*height還要再調*/
    }
 
    .center {
@@ -41,22 +41,59 @@ body {
    }
 
    .professor-name{
-     text-align: center;
+     color: #37646E;
      font-size: 18px;
+     font-weight: bold;
+     text-align: center;
      margin: 8px 0;
+   }
+
+   .name-color{
+     background-color: #60D7CD;
+
    }
 
    .professor-name img{
      width: 120px;
      height: 144px;
+     margin-bottom: 15px;
+     border-color: #6EF7C5;
+     border-radius: 15px;
+     border: 3px #60D7CD solid;
+   }
+
+   .professor-name img:hover{
+     opacity: 0.8;
+     transition: 0.5s;
    }
 
    .professor-introduce h4{
      padding: 0 15%;
+     font-weight: bold;
+     text-decoration: underline;
    }
 
    .professor-introduce p{
      padding: 0 23%;
+     padding-bottom: 8px;
+   }
+
+   /*.introduce-list{
+     list-style: none;
+
+   }
+
+   .introduce-list::before{
+     content: "\00BB \0020";
+   }*/
+
+   .introduce-list li {
+    /*list-style-image: url('image/award-post.png');*/
+    margin: 0 5%;
+    /*list-style-image:url('upload/20130930173146.gif');*/
+   }
+   .professor-introduce ul{
+     content: "\00BB";
    }
 
 /* --------------------------------------
