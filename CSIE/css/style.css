@@ -1,3 +1,7 @@
+*{
+  /*font-family:serif;*/
+}
+
 /* --------------------------------------
    Navbar
    -------------------------------------- */
@@ -13,6 +17,9 @@
    .nav li {
      overflow: hidden;
    }*/
+   .logo{
+     height: 22px;
+   }
 
 /* --------------------------------------
    Carousel
@@ -132,6 +139,23 @@
     .news ul li:hover {
       font-size: 1.3em;
     }
+
+    /* --------------------------------------
+       Professor card
+       -------------------------------------- */
+    .white{
+      color: #fff;
+    }
+
+    .professor-card{
+
+      border-radius: 3px;
+      border: 1px rgb(79, 184, 223) solid;
+      box-sizing: border-box;
+      margin: 10px 10px;
+    }
+
+
     /* --------------------------------------
        Footer
        -------------------------------------- */
