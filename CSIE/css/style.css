@@ -1,6 +1,12 @@
 body {
   overflow-x: hidden;
 }
+
+* {
+  font-family: 'Bitter',  'Microsoft JhengHei', serif;
+
+}
+
 /* --------------------------------------
    Navbar
    -------------------------------------- */
@@ -20,9 +26,13 @@ body {
 
    .professor-card{
      box-sizing: border-box;
-     background-color: rgb(155, 233, 238);
-     margin: 0 10px;
+     background-color: rgba(118, 216, 238, 0.65);
+     margin: 1% 2%;
      border: 3px #f7f7f7 solid;
+   }
+
+   .center {
+     padding-left: 12.5%;
    }
 
    .professor-name{
@@ -40,7 +50,7 @@ body {
    }
 
    .professor-introduce p{
-     padding: 0 20%;
+     padding: 0 23%;
    }
 
 /* --------------------------------------
@@ -161,13 +171,18 @@ body {
       transform: scale(1.1,1.1);
       transform-origin: 0;
     }
+
+    /*.row-mar{
+      margin: auto;
+    }*/
     /* --------------------------------------
        Footer
        -------------------------------------- */
       footer {
         border-top: 2px solid #182A5C;
-        margin-top: 20px;
-        background-color: #53D4E1;
+        margin-top: 40px;
+        background-color: #4086AE;
+        color: white;
       }
 
       footer .header {
