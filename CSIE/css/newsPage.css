@@ -34,16 +34,20 @@
       padding-right: 6px;
     }
 
-    .sidebar ul li {
+    .sidebar ul a {
+      text-decoration: none;
+      color: #493b3b;
+    }
+
+    .sidebar ul a li {
       border: 1px solid #53ADE1;
       border-left: 6px solid #53ADE1;
-      border-radius: 3px;
+      border-radius: 0;
       list-style: none;
       margin-top: 6px;
       padding-left: 5px;
       font-size: 1.2em;
       display: block;
-      border-radius: 0;
       text-align: center;
     }
 
@@ -52,11 +56,10 @@
       transform-origin: 0;
     }
 
-    .sidebar ul li a {
-      text-decoration: none;
-      color: #493b3b;
+    .focus {
+      background-color: #53ADE1;
+      color: white;
     }
-
 
 /* --------------------------------------
    Article table
