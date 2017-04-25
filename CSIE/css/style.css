@@ -5,6 +5,11 @@ body {
 * {
   font-family: 'Bitter',  'Microsoft JhengHei', serif;
 }
+
+.main {
+  margin-top: 60px;
+  min-width: 373px;
+}
 /* --------------------------------------
    Navbar
    -------------------------------------- */
@@ -18,82 +23,8 @@ body {
      transition-delay: 0.07s;
    }
 
-   .teach-title {
-     color: #42aec4;
-   }
-
    .logo{
      height: 22px;
-   }
-
-   .professor-card{
-     box-sizing: border-box;
-     border-radius: 15px;
-     background-color: rgba(118, 216, 238, 0.65);
-     margin: 1% 2%;
-     border: 3px rgba(118, 216, 238, 0.65) solid;
-     height: 464.667px;
-     /*height還要再調*/
-   }
-
-   .center {
-     padding-left: 12.5%;
-   }
-
-   .professor-name{
-     color: #37646E;
-     font-size: 18px;
-     font-weight: bold;
-     text-align: center;
-     margin: 8px 0;
-   }
-
-   .name-color{
-     background-color: #60D7CD;
-
-   }
-
-   .professor-name img{
-     width: 120px;
-     height: 144px;
-     margin-bottom: 15px;
-     border-color: #6EF7C5;
-     border-radius: 15px;
-     border: 3px #60D7CD solid;
-   }
-
-   .professor-name img:hover{
-     opacity: 0.8;
-     transition: 0.5s;
-   }
-
-   .professor-introduce h4{
-     padding: 0 15%;
-     font-weight: bold;
-     text-decoration: underline;
-   }
-
-   .professor-introduce p{
-     padding: 0 23%;
-     padding-bottom: 8px;
-   }
-
-   /*.introduce-list{
-     list-style: none;
-
-   }
-
-   .introduce-list::before{
-     content: "\00BB \0020";
-   }*/
-
-   .introduce-list li {
-    /*list-style-image: url('image/award-post.png');*/
-    margin: 0 5%;
-    /*list-style-image:url('upload/20130930173146.gif');*/
-   }
-   .professor-introduce ul{
-     content: "\00BB";
    }
 
 /* --------------------------------------
@@ -174,6 +105,7 @@ body {
       text-align: center;
       font-size: 25px;
       margin-top: 10px;
+      border-bottom: 1px solid #182A5C;
     }
 
     .news .header {
@@ -209,7 +141,7 @@ body {
       transform: scale(1.1,1.1);
       transform-origin: 0;
     }
-
+    
     /* --------------------------------------
        Footer
        -------------------------------------- */
