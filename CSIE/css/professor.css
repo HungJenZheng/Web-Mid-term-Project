@@ -24,7 +24,7 @@
      background-color: rgba(118, 216, 238, 0.65);
      margin: 1% 2%;
      border: 3px rgba(118, 216, 238, 0.65) solid;
-     height: 464.667px;
+     height: 469.667px;
      /*height還要再調*/
    }
 
@@ -60,7 +60,7 @@
    }
 
    .professor-introduce h4{
-     padding: 0 15%;
+     padding: 0 23%;
      font-weight: bold;
      text-decoration: underline;
    }
@@ -71,15 +71,27 @@
    }
 
    .introduce-list li {
-    /*list-style-image: url('image/award-post.png');*/
-    margin: 0 5%;
+    margin: 0 15%;
     /*list-style-image:url('upload/20130930173146.gif');*/
    }
    .professor-introduce ul{
      content: "\00BB";
    }
 
-   .icon_lab{
-     font-size: 30px;
-     /*background-image: url(./CSIE/images/icon_professor/icon_lab.png);*/
+   .icon{
+     background-repeat: no-repeat;
+     background-position: 15% 0;
+     background-size: 20px 20px;
+   }
+
+   .lab{
+     background-image: url(../images/icon/professor/icon_lab.png);
+   }
+
+   .research{
+     background-image: url(../images/icon/professor/icon_research.png);
+   }
+
+   .contact{
+     background-image: url(../images/icon/professor/icon_contact.png);
    }
