@@ -4,13 +4,8 @@ body {
 
 * {
   font-family: 'Bitter',  'Microsoft JhengHei', serif;
-<<<<<<< HEAD
-}
-=======
-
 }
 
->>>>>>> bb438d4f4e3c8ca1114d4aec0758c48e2cfd63b9
 /* --------------------------------------
    Navbar
    -------------------------------------- */
@@ -138,13 +133,18 @@ body {
       margin-top: 10px;
     }
 
+    .title h2 {
+      font-weight: 800;
+      color: #493b3b;
+    }
+
     .news .header {
       background-color: #53ADE1;
       border-radius: 5px;
       margin-top: 20px;
       margin-left: 3px;
       margin-right: 3px;
-      padding-top: 5px;
+      padding-top: 8px;
       padding-bottom: 5px;
       padding-left: 10px;
       font-size: 18px;
@@ -153,15 +153,15 @@ body {
 
     .news ul {
       padding-left: 6px;
+      margin-bottom: 0;
     }
 
     .news ul li {
       border-left: 4px solid #53ADE1;
       border-radius: 3px;
       list-style: none;
-      margin-top: 5px;
       margin-top: 10px;
-      margin-bottom: 10px;
+      /*margin-bottom: 10px;*/
       padding-left: 5px;
       font-size: 1.2em;
       display: block;
@@ -172,13 +172,37 @@ body {
       transform-origin: 0;
     }
 
+    .news ul li a {
+      text-decoration: none;
+      color: #493b3b;
+    }
+
+    .more {
+      text-align: right;
+      padding-right: 10px;
+    }
+
+    .more a {
+      color: #4086AE;
+      text-decoration: none;
+      color: #4086AE;
+      border: 1px dashed #53ADE1;
+      padding: 1px 3px;
+      border-radius: 3px;
+    }
+
+    .more a:hover {
+      color: white;
+      background-color: #53ADE1;
+    }
+
     /* --------------------------------------
        Footer
        -------------------------------------- */
       footer {
         border-top: 2px solid #182A5C;
         margin-top: 40px;
-        background-color: #4086AE;
+        background-color: #57B8E6;
         color: white;
       }
 
@@ -193,6 +217,8 @@ body {
       footer .header p {
         display: block;
         font-size: 12px;
+        border-bottom: 2px dashed white;
+        padding-bottom: 10px;
       }
 
       footer h4 {
@@ -202,6 +228,17 @@ body {
 
       footer ul {
         padding-left: 15px;
+      }
+
+      footer ul li a {
+        text-decoration: none;
+        color: white;
+      }
+
+      footer ul li a:hover {
+        text-decoration: none;
+        font-weight: 800;
+        color: #182A5C;
       }
 
       .copyright {
