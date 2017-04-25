@@ -1,3 +1,15 @@
+.news .title {
+  text-decoration: none;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 10px;
+  border-bottom: 1px solid #182A5C;
+}
+
+.title h2 {
+  font-weight: 800;
+}
+
 /* --------------------------------------
    Professor
    -------------------------------------- */
