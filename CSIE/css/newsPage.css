@@ -1,0 +1,126 @@
+* {
+  font-family: 'Bitter',  'Microsoft JhengHei', serif;
+}
+
+/* --------------------------------------
+   Main Area
+   -------------------------------------- */
+   .main {
+     margin-top: 60px;
+   }
+
+/* --------------------------------------
+   Title
+   -------------------------------------- */
+    .news .title {
+      text-decoration: none;
+      text-align: center;
+      font-size: 25px;
+      margin-top: 10px;
+      border-bottom: 1px solid #182A5C;
+    }
+
+    .title h2 {
+      font-weight: 800;
+    }
+
+
+/* --------------------------------------
+   SideBar
+   -------------------------------------- */
+    .sidebar ul {
+      margin-top: 40px;
+      padding-left: 6px;
+      padding-right: 6px;
+    }
+
+    .sidebar ul a {
+      text-decoration: none;
+      color: #493b3b;
+    }
+
+    .sidebar ul a li {
+      border: 1px solid #53ADE1;
+      border-left: 6px solid #53ADE1;
+      border-radius: 0;
+      list-style: none;
+      margin-top: 6px;
+      padding-left: 5px;
+      font-size: 1.2em;
+      display: block;
+      text-align: center;
+    }
+
+    .sidebar ul li:hover {
+      transform: scale(1.2,1.2);
+      transform-origin: 0;
+    }
+
+    .focus {
+      background-color: #53ADE1;
+      color: white;
+    }
+
+/* --------------------------------------
+   Article table
+  -------------------------------------- */
+    .newsmain {
+      margin-top: 40px;
+      padding-left: 20px
+    }
+
+    .subtitle {
+      margin: 0px;
+      font-size: 1.6em;
+    }
+
+    .articles {
+      margin-top: 10px;
+    }
+
+    .articles thead {
+      font-size: 16px;
+      font-weight: 600;
+    }
+    .date {
+      text-align: center;
+      width: 20%;
+    }
+
+    .post {
+      width: 80%;
+    }
+
+    .articles tbody tr:hover {
+      transform: scale(1.1,1.1);
+      transform-origin: 10%;
+      background-color: #9DD5E6;
+    }
+    .articles tbody tr td {
+      padding: 15px 15px;
+    }
+
+    .articles tbody tr td a{
+      text-decoration: none;
+      color: #493b3b;
+    }
+
+
+    .more {
+      text-align: right;
+      padding-right: 10px;
+    }
+
+    .more a {
+      color: #4086AE;
+      text-decoration: none;
+      color: #4086AE;
+      border: 1px dashed #53ADE1;
+      padding: 1px 3px;
+      border-radius: 3px;
+    }
+
+    .more a:hover {
+      color: white;
+      background-color: #53ADE1;
+    }
