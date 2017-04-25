@@ -1,85 +1,97 @@
-.news .title {
-  text-decoration: none;
-  text-align: center;
-  font-size: 25px;
-  margin-top: 10px;
-  border-bottom: 1px solid #182A5C;
-}
+  .news .title {
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+    border-bottom: 1px solid #182A5C;
+  }
 
-.title h2 {
-  font-weight: 800;
-}
-
-/* --------------------------------------
+  .title h2 {
+    font-weight: 800;
+  }
+  /* --------------------------------------
    Professor
    -------------------------------------- */
 
-   .professor {
-     margin-top: 20px;
-   }
+  .professor {
+    margin-top: 20px;
+  }
 
-   .professor-card{
-     box-sizing: border-box;
-     border-radius: 15px;
-     background-color: rgba(118, 216, 238, 0.65);
-     margin: 1% 2%;
-     border: 3px rgba(118, 216, 238, 0.65) solid;
-     height: 464.667px;
-     /*height還要再調*/
-   }
+  .professor-card {
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-color: rgba(118, 216, 238, 0.65);
+    margin: 1% 2%;
+    border: 3px rgba(118, 216, 238, 0.65) solid;
+    height: 469.667px;
+    /*height還要再調*/
+  }
 
-   .center {
-     padding-left: 12.5%;
-   }
+  .center {
+    padding-left: 12.5%;
+  }
 
-   .professor-name{
-     color: #37646E;
-     font-size: 18px;
-     font-weight: bold;
-     text-align: center;
-     margin: 8px 0;
-   }
+  .professor-name {
+    color: #37646E;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: 8px 0;
+  }
 
-   .name-color{
-     background-color: #60D7CD;
+  .name-color {
+    background-color: #60D7CD;
+  }
 
-   }
+  .professor-name img {
+    width: 120px;
+    height: 144px;
+    margin-bottom: 15px;
+    border-color: #6EF7C5;
+    border-radius: 15px;
+    border: 3px #60D7CD solid;
+  }
 
-   .professor-name img{
-     width: 120px;
-     height: 144px;
-     margin-bottom: 15px;
-     border-color: #6EF7C5;
-     border-radius: 15px;
-     border: 3px #60D7CD solid;
-   }
+  .professor-name img:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+  }
 
-   .professor-name img:hover{
-     opacity: 0.8;
-     transition: 0.5s;
-   }
+  .professor-introduce h4 {
+    padding: 0 23%;
+    padding-bottom: 3px;
+    font-weight: bold;
+    text-decoration: underline;
+  }
 
-   .professor-introduce h4{
-     padding: 0 15%;
-     font-weight: bold;
-     text-decoration: underline;
-   }
+  .professor-introduce p {
+    padding: 0 23%;
+    padding-bottom: 8px;
+  }
 
-   .professor-introduce p{
-     padding: 0 23%;
-     padding-bottom: 8px;
-   }
-
-   .introduce-list li {
-    /*list-style-image: url('image/award-post.png');*/
-    margin: 0 5%;
+  .introduce-list li {
+    margin: 0 15%;
     /*list-style-image:url('upload/20130930173146.gif');*/
-   }
-   .professor-introduce ul{
-     content: "\00BB";
-   }
+  }
 
-   .icon_lab{
-     font-size: 30px;
-     /*background-image: url(./CSIE/images/icon_professor/icon_lab.png);*/
-   }
+  .professor-introduce ul {
+    content: "\00BB";
+  }
+
+  .icon {
+    background-repeat: no-repeat;
+    background-position: 15% 0;
+    background-size: 20px 20px;
+  }
+
+  .lab {
+    background-image: url(../images/icon/professor/icon_lab.png);
+  }
+
+  .research {
+    background-image: url(../images/icon/professor/icon_research.png);
+  }
+
+  .contact {
+    background-image: url(../images/icon/professor/icon_contact.png);
+  }
