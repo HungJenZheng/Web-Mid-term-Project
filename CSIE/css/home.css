@@ -96,7 +96,7 @@
       margin-right: 3px;
       padding-top: 8px;
       padding-bottom: 5px;
-      padding-left: 10px;
+      padding-left: 30px;
       font-size: 18px;
       color: white;
     }
@@ -144,4 +144,26 @@
     .more a:hover {
       color: white;
       background-color: #53ADE1;
+    }
+
+    .icon {
+      background-repeat: no-repeat;
+      background-position: 3px 6px;
+      background-size: 25px 25px;
+    }
+
+    .dept-post .header {
+      background-image: url(../images/dept-post.png);
+    }
+
+    .topic-post .header {
+      background-image: url(../images/topic-post.png);
+    }
+
+    .recruit-post .header {
+      background-image: url(../images/recruit-post.png);
+    }
+
+    .award-post .header {
+      background-image: url(../images/award-post.png);
     }
