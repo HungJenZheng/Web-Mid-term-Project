@@ -1,5 +1,5 @@
 /* --------------------------------------
-   Professor 
+   Professor
    -------------------------------------- */
 
    .professor {
@@ -65,4 +65,9 @@
    }
    .professor-introduce ul{
      content: "\00BB";
+   }
+
+   .icon_lab{
+     font-size: 30px;
+     /*background-image: url(./CSIE/images/icon_professor/icon_lab.png);*/
    }
