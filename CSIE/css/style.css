@@ -13,12 +13,12 @@ body {
 /* --------------------------------------
    Navbar
    -------------------------------------- */
-   .nav li a:hover{
+   .nav > li > a:hover{
      transform:rotateX(360deg);
      font-weight: bold;
    }
 
-   .nav li a{
+   .nav > li > a{
      transition: transform 1s;
      transition-delay: 0.07s;
    }

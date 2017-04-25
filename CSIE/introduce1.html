@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/newsPage.css">
+  <link rel="stylesheet" href="css/introduce.css">
   <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
   <title>CSIE</title>
 </head>
@@ -62,76 +62,48 @@
     <div class="container main">
       <div class="row news">
         <div class="row title">
-          <h2>最新消息</h2>
+          <h2>系所介紹</h2>
         </div>
         <div class="row">
           <div class="sidebar col-lg-2 col-md-2 col-sm-3">
-            <ul class="list-group">
-              <a href="dept-post.html">
-                <li class="list-group-item">系辦公告</li>
+            <ul class="list-group" id="accordion">
+              <a href="#collapseOne" data-toggle="collapse" data-parent="#accordion">
+                <li class="list-group-item">系所簡介 <strong class="caret"></strong></li>
               </a>
-              <a href="topic-post.html">
-                <li class="list-group-item">專題演講</li>
+              <div class="list-group collapse in subdiv" id="collapseOne">
+                <ul class="sublist">
+                  <a href="introduce1.html">
+                    <li class="list-group-item focus">沿革與現況</li>
+                  </a>
+                  <a href="introduce2.html">
+                    <li class="list-group-item">發展特色</li>
+                  </a>
+                  <a href="introduce3.html">
+                    <li class="list-group-item">教育目標</li>
+                  </a>
+                </ul>
+              </div><!-- collapse -->
+              <a href="introduce4.html">
+                <li class="list-group-item">規章辦法</li>
               </a>
-              <a href="recruit-post.html">
-                <li class="list-group-item focus">招生公告</li>
-              </a>
-              <a href="award-post.html">
-                <li class="list-group-item">競賽獲獎</li>
+              <a href="introduce5.html">
+                <li class="list-group-item">實驗室</li>
               </a>
             </ul>
           </div> <!-- end sidebar -->
-          <div class="newsmain col-lg-8 col-lg-offset-1 col-md-9 col-md-offset-1 col-sm-9">
-            <h3 class="subtitle">招生公告</h3>
-            <table class="articles table">
-              <thead>
-                <td class="date">日期</td>
-                <td class="date post">公告標題</td>
-              </thead>
-              <tbody>
-                <tr>
-                  <td class="date">2017-03-12</td>
-                  <td><a href="#" >106 學年度博士班招生公告</a></td>
-                </tr>
-                <tr>
-                  <td class="date">2016-11-14</td>
-                  <td><a href="#">106 學年度碩士班一般招生公告</a></td>
-                </tr>
-                <tr>
-                  <td class="date">2016-10-03</td>
-                  <td><a href="#">106 學年度博士班甄試招生公告</a></td>
-                </tr>
-                <tr>
-                  <td class="date">2016-10-03</td>
-                  <td><a href="#">106 學年度碩士班甄試招生公告</a></td>
-                </tr>
-                <tr>
-                  <td class="date">2016-07-14</td>
-                  <td><a href="#">105學年度碩一學生申請逕修讀博士班公告</a></td>
-                </tr>
-                <tr>
-                  <td class="date">2016-03-02</td>
-                  <td><a href="#">105 學年度博士班研究生招生公告</a></td>
-                </tr>
-                <tr>
-                  <td class="date">2015-11-04</td>
-                  <td><a href="#">105 學年度碩士班一般招生公告</a></td>
-                </tr>
-                <tr>
-                  <td class="date">2015-09-30</td>
-                  <td><a href="#">105 學年度博士班甄試招生公告</a></td>
-                </tr>
-                <tr>
-                  <td class="date">2015-09-30</td>
-                  <td><a href="#">105 學年度碩士班甄試招生公告</a></td>
-                </tr>
-                <tr>
-                  <td class="date">2015-06-11</td>
-                  <td><a href="#">104學年度碩一學生申請逕修讀博士班公告</a></td>
-                </tr>
-              </tbody>
-            </table>
-            <p class="more"><a href="#">More</a></p>
+          <div class="introducemain col-lg-8 col-lg-offset-1 col-md-9 col-md-offset-1 col-sm-9">
+            <h3 class="subtitle">系所簡介</h3>
+            <div class="panel panel-info">
+              <div class="panel-heading">
+                <h3 class="panel-title">沿革與現況</h3>
+              </div>
+              <div class="panel-body article">
+                <p>　　本系創立於民國89年，初期僅招收碩士班研究生。90學年度成立大學部二年制(二技)，招收專科畢業生。93學年度由二技換班為四技，招收高中生及高職生，同時停招二技。94學年度設立博士班，開始招收博士班研究生。</p>
+                <p>　　本系目前有16位專任教師，均具資訊相關領域博士學位。對學生的重視為本系最重要的核心價值，因此系上教師均富熱忱的教學態度，並給予學生份量充足的課程作業及嚴謹的成績考核，藉此訓練與培育學生專業技能，並佐以雙導師制度提供學生專業選課輔導，協助學生適才適性發展。</p>
+                <p>　　本系課程規劃參照ACM/IEEE Computing Curricula，與全球同步。課程設計以「語言與軟體」、「數學與演算」及「計算機系統」等三大基礎領域為主軸，並規劃「多媒體系統」、「網路系統」與「軟體系統」等三個專業領域，提供基礎理論與實作應用兼備的訓練與發展環境。研究所課程以物件導向程式設計為基礎，再輔以軟體工程學程及本系特色研究領域的進階課程，將論文導向各專業研究領域。</p>
+                <p>　　隨著資訊科技的演進及進展，本系教學與研究亦不斷的調整方向，期以最新資訊技術培育及提供青年學子最佳的學習場所，歡迎有志青年踴躍加入本系行列，一同為台灣資訊產業的發展努力。</p>
+              </div>
+            </div>
           </div>
         </div>
     </div><!-- end News -->

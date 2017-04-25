@@ -1,0 +1,157 @@
+/* --------------------------------------
+   Main Area
+   -------------------------------------- */
+   .main {
+     margin-top: 60px;
+   }
+
+/* --------------------------------------
+   Title
+   -------------------------------------- */
+    .news .title {
+      text-decoration: none;
+      text-align: center;
+      font-size: 25px;
+      margin-top: 10px;
+      border-bottom: 1px solid #182A5C;
+    }
+
+    .title h2 {
+      font-weight: 800;
+    }
+
+
+/* --------------------------------------
+   SideBar
+   -------------------------------------- */
+    .sidebar > ul {
+      margin-top: 40px;
+      padding-left: 6px;
+      padding-right: 6px;
+    }
+
+    .sidebar > ul a {
+      text-decoration: none;
+      color: #493b3b;
+    }
+
+    .sidebar > ul a li {
+      border: 1px solid #53ADE1;
+      border-left: 6px solid #53ADE1;
+      border-radius: 0;
+      list-style: none;
+      margin-top: 6px;
+      padding-left: 5px;
+      font-size: 1.2em;
+      display: block;
+      text-align: center;
+    }
+
+    .sidebar ul li:hover {
+      transform: scale(1.2,1.2);
+      transform-origin: 0;
+    }
+
+    .focus {
+      background-color: #53ADE1;
+      color: white;
+    }
+
+    .subdiv {
+      margin: 0px;
+    }
+
+    .sublist {
+      padding-left: 10px;
+    }
+
+/* --------------------------------------
+   introduct main
+  -------------------------------------- */
+    .subtitle {
+      margin: 0px;
+      font-size: 1.6em;
+    }
+
+    .introducemain {
+      margin-top: 40px;
+      padding-left: 20px;
+      font-size: 1.4rem;
+    }
+
+    .introducemain .panel {
+      margin-right: 3px;
+      margin-top: 15px;
+    }
+
+    .introducemain .panel-info .panel-body p {
+      font-size: 1.35em;
+      margin-bottom: 15px;
+    }
+
+    .introducemain .panel-info .panel-body ol {
+      padding-left: 50px;
+      font-size: 1.35em;
+      padding-bottom: 10px;
+      border-bottom: 1px dashed black;
+      margin-bottom: 30px;
+    }
+
+    @media (min-width: 1200px) {
+      .introducemain .panel-info .panel-body p {
+        font-size: 1.45em;
+      }
+
+      .introducemain .panel-info .panel-body ol {
+        font-size: 1.35em;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .introducemain .panel-info .panel-body p {
+        font-size: 1.25em;
+      }
+      .introducemain .panel-info .panel-body ol {
+        font-size: 1.35em;
+      }
+    }
+
+    /* --------------------------------------
+       introduct table
+      -------------------------------------- */
+    .introduce4-table {
+      margin-top: 20px;
+      text-align: center;
+      font-size: 1.2em;
+      margin-bottom: 40px;
+    }
+
+    .introduce4-table thead {
+      font-weight: 600;
+      font-size: 1.3em;
+    }
+
+    .introduce5-table {
+      margin-top: 20px;
+      text-align: center;
+      font-size: 1.2em;
+      margin-bottom: 40px;
+    }
+
+    .introduce5-table thead {
+      font-weight: 600;
+      font-size: 1.3em;
+    }
+
+    .introduce5-table .th2 {
+      width: 30%;
+    }
+
+    .introduce5-table tbody tr:hover {
+      background-color: #9DD5E6;
+    }
+
+    .introduce5-table a {
+      color: black;
+      /*text-decoration: none;*/
+    }

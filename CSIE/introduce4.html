@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/newsPage.css">
+  <link rel="stylesheet" href="css/introduce.css">
   <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
   <title>CSIE</title>
 </head>
@@ -62,76 +62,93 @@
     <div class="container main">
       <div class="row news">
         <div class="row title">
-          <h2>最新消息</h2>
+          <h2>系所介紹</h2>
         </div>
         <div class="row">
           <div class="sidebar col-lg-2 col-md-2 col-sm-3">
-            <ul class="list-group">
-              <a href="dept-post.html">
-                <li class="list-group-item">系辦公告</li>
+            <ul class="list-group" id="accordion">
+              <a href="#collapseOne" data-toggle="collapse" data-parent="#accordion">
+                <li class="list-group-item">系所簡介 <strong class="caret"></strong></li>
               </a>
-              <a href="topic-post.html">
-                <li class="list-group-item">專題演講</li>
+              <div class="list-group collapse subdiv" id="collapseOne">
+                <ul class="sublist">
+                  <a href="introduce1.html">
+                    <li class="list-group-item">沿革與現況</li>
+                  </a>
+                  <a href="introduce2.html">
+                    <li class="list-group-item">發展特色</li>
+                  </a>
+                  <a href="introduce3.html">
+                    <li class="list-group-item">教育目標</li>
+                  </a>
+                </ul>
+              </div><!-- collapse -->
+              <a href="introduce4.html">
+                <li class="list-group-item focus">規章辦法</li>
               </a>
-              <a href="recruit-post.html">
-                <li class="list-group-item focus">招生公告</li>
-              </a>
-              <a href="award-post.html">
-                <li class="list-group-item">競賽獲獎</li>
+              <a href="introduce5.html">
+                <li class="list-group-item">實驗室</li>
               </a>
             </ul>
           </div> <!-- end sidebar -->
-          <div class="newsmain col-lg-8 col-lg-offset-1 col-md-9 col-md-offset-1 col-sm-9">
-            <h3 class="subtitle">招生公告</h3>
-            <table class="articles table">
+          <div class="introducemain col-lg-8 col-lg-offset-1 col-md-9 col-md-offset-1 col-sm-9">
+            <h3 class="subtitle">規章辦法</h3>
+            <table class="table introduce4-table">
               <thead>
-                <td class="date">日期</td>
-                <td class="date post">公告標題</td>
+                <td class="">系務規章</td>
+                <td class="">檔案</td>
               </thead>
               <tbody>
                 <tr>
-                  <td class="date">2017-03-12</td>
-                  <td><a href="#" >106 學年度博士班招生公告</a></td>
+                  <td class="">系主任遴選作業要點</td>
+                  <td><a href="#"><span class="glyphicon glyphicon-save"></span></a></td>
                 </tr>
                 <tr>
-                  <td class="date">2016-11-14</td>
-                  <td><a href="#">106 學年度碩士班一般招生公告</a></td>
+                  <td class="">系務會議組織規程</td>
+                  <td><a href="#"><span class="glyphicon glyphicon-save"></span></a></td>
                 </tr>
                 <tr>
-                  <td class="date">2016-10-03</td>
-                  <td><a href="#">106 學年度博士班甄試招生公告</a></td>
+                  <td class="">資訊工程系教師評審委員會設置要點</td>
+                  <td><a href="#"><span class="glyphicon glyphicon-save"></span></a></td>
                 </tr>
                 <tr>
-                  <td class="date">2016-10-03</td>
-                  <td><a href="#">106 學年度碩士班甄試招生公告</a></td>
+                  <td class="">資訊工程系圖儀設備費使用辦法</td>
+                  <td><a href="#"><span class="glyphicon glyphicon-save"></span></a></td>
                 </tr>
                 <tr>
-                  <td class="date">2016-07-14</td>
-                  <td><a href="#">105學年度碩一學生申請逕修讀博士班公告</a></td>
+                  <td class="">資訊工程系所勸募基金使用及管理辦法</td>
+                  <td><a href="#"><span class="glyphicon glyphicon-save"></span></a></td>
                 </tr>
                 <tr>
-                  <td class="date">2016-03-02</td>
-                  <td><a href="#">105 學年度博士班研究生招生公告</a></td>
+                  <td class="">資訊工程系實驗場所災害緊急應變計畫書</td>
+                  <td><a href="#"><span class="glyphicon glyphicon-save"></span></a></td>
                 </tr>
                 <tr>
-                  <td class="date">2015-11-04</td>
-                  <td><a href="#">105 學年度碩士班一般招生公告</a></td>
-                </tr>
-                <tr>
-                  <td class="date">2015-09-30</td>
-                  <td><a href="#">105 學年度博士班甄試招生公告</a></td>
-                </tr>
-                <tr>
-                  <td class="date">2015-09-30</td>
-                  <td><a href="#">105 學年度碩士班甄試招生公告</a></td>
-                </tr>
-                <tr>
-                  <td class="date">2015-06-11</td>
-                  <td><a href="#">104學年度碩一學生申請逕修讀博士班公告</a></td>
+                  <td class="">資訊工程系安全衛生工作守則</td>
+                  <td><a href="#"><span class="glyphicon glyphicon-save"></span></a></td>
                 </tr>
               </tbody>
             </table>
-            <p class="more"><a href="#">More</a></p>
+            <table class="table introduce4-table">
+              <thead>
+                <td class="">資訊工程系課程委員會組織</td>
+                <td class="">檔案</td>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="">資訊工程系課程委員會組織規程(96-02-26)</td>
+                  <td><a href="#"><span class="glyphicon glyphicon-save"></span></a></td>
+                </tr>
+                <tr>
+                  <td class="">資訊工程系課程委員會組織規程(96-01-11)</td>
+                  <td><a href="#"><span class="glyphicon glyphicon-save"></span></a></td>
+                </tr>
+                <tr>
+                  <td class="">資訊工程系課程委員會組織規程(94-01-13)</td>
+                  <td><a href="#"><span class="glyphicon glyphicon-save"></span></a></td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
     </div><!-- end News -->
