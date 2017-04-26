@@ -18,15 +18,20 @@
    #myCarousel .item {height: 400px;}
 
    #slide1 {
-     background: url('../images/carousel_medium_01.jpg') top center repeat;
+     /*background: url('../images/carousel_large_01.jpg') top center repeat;*/
+     background: url('../images/main.jpg') top center repeat;
+     /*background: url('../images/award.png') top center repeat;*/
+
    }
 
    #slide2 {
-     background: url('../images/carousel_medium_02.jpg') top center repeat;
+     background: url('../images/carousel_award_1.jpg') top center repeat;
+     /*background: url('../images/carousel_large_02.jpg') top center repeat;*/
    }
 
    #slide3 {
-     background: url('../images/carousel_medium_03.jpg') top center repeat;
+     background: url('../images/carousel_award_2.jpg') top center repeat;
+     /*background: url('../images/carousel_large_03.jpg') top center repeat;*/
    }
 
 
@@ -60,17 +65,22 @@
 
      #myCarousel {font-size: 0.8rem;}
 
-    #slide1 {
-      background: url('../images/carousel_small_01.jpg') top center repeat;
-    }
+     #slide1 {
+       /*background: url('../images/carousel_large_01.jpg') top center repeat;*/
+       background: url('../images/main.jpg') top center repeat;
+       /*background: url('../images/award.png') top center repeat;*/
 
-    #slide2 {
-      background: url('../images/carousel_small_02.jpg') top center repeat;
-    }
+     }
 
-    #slide3 {
-      background: url('../images/carousel_small_03.jpg') top center repeat;
-    }
+     #slide2 {
+       background: url('../images/carousel_award_1.jpg') top center repeat;
+       /*background: url('../images/carousel_large_02.jpg') top center repeat;*/
+     }
+
+     #slide3 {
+       background: url('../images/carousel_award_2.jpg') top center repeat;
+       /*background: url('../images/carousel_large_03.jpg') top center repeat;*/
+     }
   }
 
   /* --------------------------------------
